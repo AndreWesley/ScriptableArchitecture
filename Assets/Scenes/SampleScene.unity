@@ -1832,7 +1832,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 583757212}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: AudioManager, ScriptableArchitecture.Core
         m_MethodName: HitPlayerSFX
         m_Mode: 1
         m_Arguments:
@@ -1875,7 +1875,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 583757212}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: AudioManager, ScriptableArchitecture.Core
         m_MethodName: PlayerNearDeathSFX
         m_Mode: 1
         m_Arguments:
@@ -1914,9 +1914,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 583757212}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
-        m_MethodName: PlayerDeathSFX
+      - m_Target: {fileID: 583757213}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1926,9 +1926,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 583757213}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Stop
+      - m_Target: {fileID: 583757212}
+        m_TargetAssemblyTypeName: AudioManager, ScriptableArchitecture.Core
+        m_MethodName: PlayerDeathSFX
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
